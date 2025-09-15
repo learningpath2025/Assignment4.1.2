@@ -57,16 +57,16 @@
             this.flowLayoutPanel1.Controls.Add(this.btnClose);
             this.flowLayoutPanel1.Dock = System.Windows.Forms.DockStyle.Fill;
             this.flowLayoutPanel1.FlowDirection = System.Windows.Forms.FlowDirection.RightToLeft;
-            this.flowLayoutPanel1.Location = new System.Drawing.Point(348, 3);
+            this.flowLayoutPanel1.Location = new System.Drawing.Point(255, 3);
             this.flowLayoutPanel1.Name = "flowLayoutPanel1";
             this.tableLayoutPanel1.SetRowSpan(this.flowLayoutPanel1, 2);
-            this.flowLayoutPanel1.Size = new System.Drawing.Size(109, 313);
+            this.flowLayoutPanel1.Size = new System.Drawing.Size(79, 324);
             this.flowLayoutPanel1.TabIndex = 0;
             // 
             // btnClose
             // 
             this.btnClose.AutoSize = true;
-            this.btnClose.Location = new System.Drawing.Point(31, 235);
+            this.btnClose.Location = new System.Drawing.Point(1, 235);
             this.btnClose.Margin = new System.Windows.Forms.Padding(50, 3, 3, 3);
             this.btnClose.Name = "btnClose";
             this.btnClose.Size = new System.Drawing.Size(75, 30);
@@ -78,7 +78,7 @@
             // btnMultiply
             // 
             this.btnMultiply.AutoSize = true;
-            this.btnMultiply.Location = new System.Drawing.Point(31, 163);
+            this.btnMultiply.Location = new System.Drawing.Point(1, 163);
             this.btnMultiply.Margin = new System.Windows.Forms.Padding(50, 3, 3, 3);
             this.btnMultiply.Name = "btnMultiply";
             this.btnMultiply.Size = new System.Drawing.Size(75, 30);
@@ -90,7 +90,7 @@
             // btnDivide
             // 
             this.btnDivide.AutoSize = true;
-            this.btnDivide.Location = new System.Drawing.Point(31, 127);
+            this.btnDivide.Location = new System.Drawing.Point(1, 127);
             this.btnDivide.Margin = new System.Windows.Forms.Padding(50, 3, 3, 3);
             this.btnDivide.Name = "btnDivide";
             this.btnDivide.Size = new System.Drawing.Size(75, 30);
@@ -102,7 +102,7 @@
             // btnSubtract
             // 
             this.btnSubtract.AutoSize = true;
-            this.btnSubtract.Location = new System.Drawing.Point(31, 91);
+            this.btnSubtract.Location = new System.Drawing.Point(1, 91);
             this.btnSubtract.Margin = new System.Windows.Forms.Padding(50, 3, 3, 3);
             this.btnSubtract.Name = "btnSubtract";
             this.btnSubtract.Size = new System.Drawing.Size(75, 30);
@@ -114,7 +114,7 @@
             // btnAdd
             // 
             this.btnAdd.AutoSize = true;
-            this.btnAdd.Location = new System.Drawing.Point(31, 55);
+            this.btnAdd.Location = new System.Drawing.Point(1, 55);
             this.btnAdd.Margin = new System.Windows.Forms.Padding(50, 3, 3, 3);
             this.btnAdd.Name = "btnAdd";
             this.btnAdd.Size = new System.Drawing.Size(75, 30);
@@ -125,17 +125,17 @@
             // 
             // txtNum2
             // 
-            this.txtNum2.Location = new System.Drawing.Point(6, 29);
+            this.txtNum2.Location = new System.Drawing.Point(1, 29);
             this.txtNum2.Name = "txtNum2";
-            this.txtNum2.Size = new System.Drawing.Size(100, 20);
+            this.txtNum2.Size = new System.Drawing.Size(75, 20);
             this.txtNum2.TabIndex = 4;
             this.txtNum2.TextChanged += new System.EventHandler(this.txtNum2_TextChanged);
             // 
             // txtNum1
             // 
-            this.txtNum1.Location = new System.Drawing.Point(6, 3);
+            this.txtNum1.Location = new System.Drawing.Point(1, 3);
             this.txtNum1.Name = "txtNum1";
-            this.txtNum1.Size = new System.Drawing.Size(100, 20);
+            this.txtNum1.Size = new System.Drawing.Size(75, 20);
             this.txtNum1.TabIndex = 5;
             this.txtNum1.TextChanged += new System.EventHandler(this.txtNum1_TextChanged);
             // 
@@ -152,7 +152,7 @@
             this.tableLayoutPanel1.RowCount = 2;
             this.tableLayoutPanel1.RowStyles.Add(new System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Percent, 80F));
             this.tableLayoutPanel1.RowStyles.Add(new System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Percent, 20F));
-            this.tableLayoutPanel1.Size = new System.Drawing.Size(460, 319);
+            this.tableLayoutPanel1.Size = new System.Drawing.Size(337, 330);
             this.tableLayoutPanel1.TabIndex = 0;
             // 
             // flowLayoutPanel2
@@ -163,20 +163,20 @@
             this.flowLayoutPanel2.Location = new System.Drawing.Point(3, 3);
             this.flowLayoutPanel2.Name = "flowLayoutPanel2";
             this.tableLayoutPanel1.SetRowSpan(this.flowLayoutPanel2, 2);
-            this.flowLayoutPanel2.Size = new System.Drawing.Size(339, 313);
+            this.flowLayoutPanel2.Size = new System.Drawing.Size(246, 324);
             this.flowLayoutPanel2.TabIndex = 1;
             // 
             // txtResult
             // 
             this.txtResult.Location = new System.Drawing.Point(3, 3);
             this.txtResult.Name = "txtResult";
-            this.txtResult.Size = new System.Drawing.Size(328, 20);
+            this.txtResult.Size = new System.Drawing.Size(243, 20);
             this.txtResult.TabIndex = 0;
             // 
             // btnClear
             // 
             this.btnClear.AutoSize = true;
-            this.btnClear.Location = new System.Drawing.Point(31, 199);
+            this.btnClear.Location = new System.Drawing.Point(1, 199);
             this.btnClear.Margin = new System.Windows.Forms.Padding(50, 3, 3, 3);
             this.btnClear.Name = "btnClear";
             this.btnClear.Size = new System.Drawing.Size(75, 30);
@@ -189,7 +189,7 @@
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(460, 319);
+            this.ClientSize = new System.Drawing.Size(337, 330);
             this.Controls.Add(this.tableLayoutPanel1);
             this.Name = "Form1";
             this.Text = "Calculator";
